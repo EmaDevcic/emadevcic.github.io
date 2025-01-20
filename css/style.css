@@ -387,4 +387,7 @@ textarea.form-control { height: inherit; }
 		.row  {
 			color: white;
         }
-		
+
+	ul {
+		color: white;
+	  }
