@@ -48,7 +48,8 @@
       <div class="container">
         <div class="row align-items-center justify-content-center intro">
           <div class="col-md-10" data-aos="fade-up">
-            <h1 style="padding-top:140px;">Photo Anarchy</h1>			
+			<a href="#next" class="go-down js-smoothscroll" style="margin-top:15%;"></a>
+            <h1 style="padding-top:0px;">Photo Anarchy</h1>			
            
           </div>
         </div>
@@ -56,27 +57,28 @@
     </section>
     <!-- END templateux-hero -->
     
-    <section class="templateux-portfolio-overlap mb-5" id="next">
+	<section class="work-section">
+    <section class="templateux-portfolio-overlap mb-5" id="next" style="margin-top:3%;">
       <div class="container" data-aos="fade-up">
         <div class="row justify-content-center">
           <div class="col-md-10">
             <div class="row work-detail">
               <div class="col-md-4 ">
                 <span class=caption>Role</span>
-                <b style="color:#F7F7F7;">Graphic Designer</b>
+                <b>Graphic Designer</b>
               </div>
               <div class="col-md-4">
                 <span class=caption>Tools</span>
-                <b style="color:#F7F7F7;">Adobe Photoshop</b>
+                <b>Adobe Photoshop</b>
               </div>
               <div class="col-md-4">
                 <span class=caption>Part of</span>
-                <b style="color:#F7F7F7;">Multimedia Undegraduate Degree</b>
+                <b>Multimedia Undegraduate Degree</b>
               </div>
             </div>
             
             <div class="row">
-              <div>
+              <div style="width:99%; padding:10px; ">
 				<p class="mb-5" style="text-align: justify;"> In this graphic design project, the objective was to transform a visual concept using blending images and typography in Photoshop, and my chosen theme was the forest. Firstly, I conducted image research and selected various images that could represent or symbolize theme elements. Using Photoshop's blending techniques, I started by importing the chosen photos into different layers, then manipulated and adjusted each layer's opacity, blending modes, and masks to seamlessly merge them. Through doing so, I created a new composition and achieved a visually striking representation of the concept of a forest.</p>
               </div>
               
@@ -87,24 +89,44 @@
 
       </div>
     </section>
+	</section>
 
-    <footer class="templateux-footer">
+  <footer class="templateux-footer">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-6 text-md-left text-center">
-            <p> 
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All Rights Reserved | Ema's Portfolio</a>
-          </p>
-          </div>
+		  
+           <p style="font-size:13pt;">&copy;<script>document.write(new Date().getFullYear());</script> Ema's Portfolio | Made with 
+			<img src="images/heart.svg" width="20" height="20" alt="star icon">
+		   and lot's of  <img src="images/coffee.png" width="20" height="20" alt="star icon">
+		   . </a></p>
+          
+		  </div>
           <div class="col-md-6 text-md-right text-center footer-social">
-			<a href="https://www.linkedin.com/in/emadevcic/" target="_blank" class="p-3"><img src="images/icon1.png" style="width:4%;"></a>
-			<a href="https://medium.com/@emadux" target="_blank" class="p-3"><img src="images/icon2.png" style="width:4%;"></a>
+			<p style="font-size:13pt;">Let's Connect! &nbsp;&nbsp;<a href="https://www.linkedin.com/in/emadevcic/" target="_blank" class="p-3"><img src="images/linkedin-icon.png" style="width:28px;"></a>
+			<a href="https://medium.com/@emadux" target="_blank" class="p-3"><img src="images/medium-icon.png" style="width:28px;"></a>
+			<a href="mailto:your-email@example.com" class="p-3"><img src="images/email-icon.png" style="width:28px;"></a></p>
           </div>
         </div>
       </div>
     </footer>
   </div>
+  <div id="back-to-top" onclick="scrollToTop()">&#8679;</div>
   
+   <script>
+        window.onscroll = function() {
+            var backToTop = document.getElementById("back-to-top");
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                backToTop.style.display = "block";
+            } else {
+                backToTop.style.display = "none";
+            }
+        };
+        
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
   <script src="js/scripts-all.js"></script>
   <script src="js/main.js"></script>
   

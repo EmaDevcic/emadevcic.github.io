@@ -48,35 +48,38 @@
       <div class="container">
         <div class="row align-items-center justify-content-center intro">
           <div class="col-md-10" data-aos="fade-up">
-            <h1 style="padding-top:140px;">Content Design Strategy</h1>			 
+		  <a href="#next" class="go-down js-smoothscroll" style="margin-top:15%;"></a>
+		   
+            <h1 style="padding-top:0px;">Content Design Strategy</h1>			 
           </div>
         </div>
       </div>
     </section>
     <!-- END templateux-hero -->
     
-    <section class="templateux-portfolio-overlap mb-5" id="next">
+	 <section class="work-section">
+    <section class="templateux-portfolio-overlap mb-5" id="next" style="margin-top:3%">
       <div class="container" data-aos="fade-up">
         <div class="row justify-content-center">
           <div class="col-md-10">
             <div class="row work-detail">
               <div class="col-md-4 ">
                 <span class=caption>Role</span>
-                <b style="color:#F7F7F7;">UX Writer</b>
+                <b>UX Writer</b>
               </div>
               <div class="col-md-4">
                 <span class=caption>Tools</span>
-                <b style="color:#F7F7F7;">MS Word, Miro, Grammarly</b>
+                <b>MS Word, Miro, Grammarly</b>
               </div>
               <div class="col-md-4">
                 <span class=caption>Part of</span>
-                <b style="color:#F7F7F7;">Fullscale Team</b>
+                <b>Fullscale</b>
               </div>
             </div>
 		
             
             <div class="row">
-              <div>
+              <div style="width:99%; padding:10px; ">
 
             <p class="mb-5" style="text-align: justify;">As the sole UX writer, I developed a comprehensive content strategy for the Fullscale real estate platform. My responsibilities included strategizing the user journey, creating web copy, and aligning content to meet key business objectives. The primary goal of the strategy was to position the website as a trusted resource for potential buyers, sellers, and renters while driving user engagement and attracting potential clients.</p>
 			
@@ -84,15 +87,15 @@
 			
 			<p style="text-align: justify;">I aimed to make content valuable, easy to understand, and optimized for search engines. This involved identifying key stakeholders to understand their perspectives, ensuring that messaging aligns with brand standards, and addressing users' needs at different stages of their journey.</p>
 			
-			<p>Objectives:</p>
+			<p><b>Objectives:</b></p>
 			 <ul type="0">
 				<li>Improved content: use straightforward headings and everyday language to ensure accessibility and engagement.</li>
 				<li>Consistent design: create a simple, flexible template that works for different types of communication and keeps the experience consistent across the platform.</li>
 			</ul>
 			
 			
-			<p>Stakeholders:</p>
-            		<ul type="2">
+			<p><b>Stakeholders:</b></p>
+            <ul type="2">
 				<li>Homebuyers: first-time buyers (families) and experienced buyers (investors).</li>
 				<li>Sellers: homeowners looking to sell their properties.</li>
 				<li>Renters: individuals and families seeking rental properties.</li>
@@ -131,25 +134,44 @@
 
       </div>
     </section>
-
-    <footer class="templateux-footer">
+	 </section>
+	
+	<<footer class="templateux-footer">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-6 text-md-left text-center">
-            <p> 
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All Rights Reserved | Ema's Portfolio</a>
-          </p>
-          </div>
+		  
+           <p style="font-size:13pt;">&copy;<script>document.write(new Date().getFullYear());</script> Ema's Portfolio | Made with 
+			<img src="images/heart.svg" width="20" height="20" alt="star icon">
+		   and lot's of  <img src="images/coffee.png" width="20" height="20" alt="star icon">
+		   . </a></p>
+          
+		  </div>
           <div class="col-md-6 text-md-right text-center footer-social">
-			<a href="https://www.linkedin.com/in/emadevcic/" target="_blank" class="p-3"><img src="images/icon1.png" style="width:5%;"></a>
-			<a href="https://medium.com/@emadux" target="_blank" class="p-3"><img src="images/icon2.png" style="width:5%;"></a>
+			<p style="font-size:13pt;">Let's Connect! &nbsp;&nbsp;<a href="https://www.linkedin.com/in/emadevcic/" target="_blank" class="p-3"><img src="images/linkedin-icon.png" style="width:28px;"></a>
+			<a href="https://medium.com/@emadux" target="_blank" class="p-3"><img src="images/medium-icon.png" style="width:28px;"></a>
+			<a href="mailto:your-email@example.com" class="p-3"><img src="images/email-icon.png" style="width:28px;"></a></p>
           </div>
         </div>
       </div>
     </footer>
-
   </div>
+  <div id="back-to-top" onclick="scrollToTop()">&#8679;</div>
   
+   <script>
+        window.onscroll = function() {
+            var backToTop = document.getElementById("back-to-top");
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                backToTop.style.display = "block";
+            } else {
+                backToTop.style.display = "none";
+            }
+        };
+        
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
   <script src="js/scripts-all.js"></script>
   <script src="js/main.js"></script>
   
