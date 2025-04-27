@@ -533,8 +533,7 @@ textarea.form-control { height: inherit; }
 		 .image-container-cap {
             text-align: center;
             
-        }
-		
+        }	
         
         .caption {
             font-size: 16px;
@@ -542,8 +541,3 @@ textarea.form-control { height: inherit; }
             margin-top: 5px;
         }
 		
-		@media screen and (max-width: 768px) {
-		.templateux-footer {  /* or use #footer-text if it's an ID */
-		font-size: 4vw !important; /* Adjust this size as needed */
-		white-space: nowrap; /* Prevents text from wrapping */
-  }
