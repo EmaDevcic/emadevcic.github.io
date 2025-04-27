@@ -544,6 +544,6 @@ textarea.form-control { height: inherit; }
 		
 		@media screen and (max-width: 768px) {
 		.templateux-footer {  /* or use #footer-text if it's an ID */
-		font-size: 8px !important; /* Adjust this size as needed */
+		font-size: 4vw !important; /* Adjust this size as needed */
 		white-space: nowrap; /* Prevents text from wrapping */
   }
