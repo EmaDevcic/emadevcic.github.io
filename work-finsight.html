@@ -48,7 +48,7 @@
         <div class="row align-items-center justify-content-center intro">
           <div class="col-md-10" data-aos="fade-up">
 		   <a href="#next" class="go-down js-smoothscroll" style="margin-top:40%;"></a>
-            <h1 style="position: absolute; top: 40%;left: 15px;">Finsight</h1>
+            <h1 style="position: absolute; top: 40%;left: 15px;">FinSight</h1>
 			 <video style="width:30%; margin-top:5%; margin-left:60%;" autoplay loop muted playsinline preload="metadata">
 			<source src="images/work/video-finsight.mp4" type="video/mp4">
 			Your browser does not support the video tag.
@@ -87,39 +87,45 @@
               <div style="width:99%; padding:15px; "> 
 			  
 			<h5>Overview</h5>
-			    <p>FinSight is an app designed to help users manage their mortgage. With a focus on extra monthly payments which reduce the mortage timeline and interest. The project addresses a core user problem: homeowners with mortgages often feel overwhelmed by the scale and duration of their debt. My vision was to empower homeowners to visualise and accelerate their mortgage journey, with the primary goal of making repayments more manageable.</p>
+			    <p> FinSight is a mortgage management app focused on one core behaviour: making extra monthly repayments to reduce mortgage timeline and interest. The project addresses a key user problem: homeowners feel overwhelmed by the size and length of their mortgage and struggle to see the progress. The goal was to help users visualise their mortgage journey, understand the impact of small actions, and feel more in control of their long-term debt.</p>
 			<h4>User Problem</h4>
 				<p>Homeowners see their mortgage as a static, long-term burden. They struggle with:</p>
 				<ul type="2">
 				<li>Lack of clear progress visibility</li>
-				<li>The feeling of long-term debt</li>
-				<li>Difficulty understanding mortgage terms and impact</li>
+				<li>Anxiety about long-term debt</li>
+				<li>Poor understanding of mortgage terms and repayment impact</li>
 				</ul>
 			<p><b>User quote:</b><i> "Just the scale of those kind of numbers. It’s daunting"</i></p>	
 				
 			<h4>Approach</h4>
 				<p>A visualization tool that shows how small financial actions today lead to significant savings tomorrow:</p>
 				<ul type="2">
-				<li>Personalized guidance based on individual finances</li>
-				<li>Visualized impact of repayments</li>
-				<li>Simplified decision-making with clear comparisons</li>
+				<li>Personalized guidance based on user data</li>
+				<li>Visual comparison of overpayment scenarios</li>
+				<li>Simplified choices that reduce cognitive load</li>
 				</ul><br>
 			
 			
 			<h5>Competitor Analysis</h5>
 			<p>To understand the market landscape, I analysed both direct and indirect competitors.</p>
-			<p><b>Direct competitors:</b> These included local banking apps that offer mortgage services, such as AIB, BOI, and PTSB. I also examined apps like Lively and Finplan, which offer online mortgage calculators that support users in getting a mortgage. These tools typically focus on the initial application or basic calculations but lack ongoing management and motivational features.</p>
+			<p><b>Direct competitors:</b> these included local banking apps that offer mortgage services, such as AIB, BOI, and PTSB. I also examined apps like Lively and Finplan, which offer online mortgage calculators that support users in getting a mortgage. These tools typically focus on the initial application or basic calculations but lack ongoing management and motivational features.</p>
 			
-			<p><b>Indirect competitors:</b>This category included digital banks like Revolut, Ireland’s mortgage broker IMC, and money management apps like bunq and Mint. These competitors offer valuable features such as budgeting tracking, finance planning, and analysing spending habits. However, none integrate these features with dedicated, visual mortgage repayment planning.</p><br>
+			<p><b>Indirect competitors:</b> this category included digital banks like Revolut, Ireland’s mortgage broker IMC, and money management apps like bunq and Mint. These competitors offer valuable features such as budgeting tracking, finance planning, and analysing spending habits. However, none integrate these features with dedicated, visual mortgage repayment planning.</p><br>
 			<div class="image-container-cap">
 			<img src="images/work/finsight-competitor.png" alt="Student Services Prototype" class="img-fluid">
-			<div class="caption">Direct and indirect competitors</div>
+			<div class="caption">Direct and Indirect Competitors</div>
 			</div><br>
 			
 			
 			<h5>User Research</h5>
 			<h4>Survey (23 Responses)</h4>
-			<p class="mb-5" style="text-align: justify;">I conducted an online survey targeting homeowners with a mortgage. The survey was distributed through social media, the UX Tree community, and the finance forums on <i>boards.ie.</i>  The main finding was that the core mortgage challenge is psychological, not just financial. Specifically, the top three struggles users face are the overwhelming feeling of long-term debt, difficulty understanding complex terms and conditions, and a lack of visibility into their progress.</p>
+			<p class="mb-5" style="text-align: justify;">I conducted an online survey targeting homeowners with a mortgage. The survey was distributed through social media, the UX Tree community, and the finance forums on <i>boards.ie.</i>  The main finding was that the core mortgage challenge is psychological, not just financial.</p>
+			<p>Main Struggles:</p>
+				<ul type="2">
+				<li>Feeling overwhelmed by long-term debt</li>
+				<li>Understanding complex terms and conditions</li>
+				<li>lack of visibility into their progress</li>
+				</ul><br>
 			<p>Behaviour insights:</p>
 				<ul type="2">
 				<li>11 out of 23 have never made an overpayment</li>
@@ -129,7 +135,7 @@
 			
 			<div class="image-container-cap">
 			<img src="images/work/finsight-survey.png" alt="Student Services Prototype" class="img-fluid">
-			<div class="caption">Online survey</div>
+			<div class="caption">Online Survey</div>
 			</div><br>
 			
 			<div class="row">
@@ -233,18 +239,29 @@
 			
 			</div>
 			<div class="col-md-6">
-			<h4>Round 1: Low-Fidelity Protoype</h4>
-			<p>First, I tested the low-fidelity prototype to validate the fundamental structure and user journey, ensuring the core flow worked before moving on to detailed design.</p>
+			<h4>Round 1: Low-Fidelity Prototype</h4>
+			<p>I tested the low-fidelity prototype (2 participants) to validate the core user flow and overall structure before investing in visual design.<br><br>
+
+			<b>Key findings:</b>
 			<ul type="2">
-				<li><b>Participants: </b>2</li>
-				<li><b>Main learnings: </b>to prioritize most important features first</li>
+				<li>Too many features were introduced too early</li>
+				<li>Users wanted to see mortgage progress immediately, without additional setup steps</li>
+			</ul>
+			
+			</p><p>
+			<b>Actions taken:</b>
+			<ul type="2">
+				<li>Simplified the flow with the most important feature first</li>
+				<li>Reduced secondary options in early screens</li>
+			</ul>
+				</p>
 			
 			</div>
 
 			<div class="col-md-6"><br>
 			<div class="image-container-cap">
 			<img src="images/work/finsight-testing1.png" alt="Student Services Prototype" class="img-fluid">
-			<div class="caption">Low-Fidelity Protoype</div>
+			<div class="caption">Low-Fidelity Prototype</div>
 			</div><br>
 		
 			</div>
@@ -254,19 +271,30 @@
 			<div class="col-md-12 clearfix mb-3">
 			
 			</div>
+			<br><br>
 			<div class="col-md-6">
 			<h4>Round 2: Mid-Fidelity Prototype</h4><br>
-			<p>Following that, I tested the mid-fidelity prototype to evaluate the detailed layout and navigation, ensuring the user experience was intuitive and functional before applying the final visual design.</p>
+			<p>Following that, I tested the mid-fidelity prototype (2 participants) to test the navigation clarity and understanding of core features in a more detailed layout.<br><br>
+			<b>Key findings:</b>
 			<ul type="2">
-				<li><b>Participants: </b>2</li>
-				<li><b>Main learnings: </b>users struggled to find main features and understand the mortgage calculator</li>
+				<li>Users struggled to locate key features within the navigation</li>
+				<li>Users weren't sure what the mortgage calucator does</li>
+			</ul>
+			
+			</p><p>
+			<b>Actions taken:</b>
+			<ul type="2">
+				<li>Simplified navigation labels</li>
+				<li>Introduced the mortgage calculator feature and it's purpose on the homepage</li>
+			</ul>
+				</p>
 			
 			</div>
 
 			<div class="col-md-6"><br>
 			<div class="image-container-cap">
 			<img src="images/work/finsight-testing2.png" alt="Student Services Prototype" class="img-fluid">
-			<div class="caption">Mid-Fidelity Protoype</div>
+			<div class="caption">Mid-Fidelity Prototype</div>
 			</div><br>
 		
 			</div>
@@ -277,18 +305,34 @@
 			<div class="col-md-12 clearfix mb-3">
 			
 			</div>
+			<br><br>
 			<div class="col-md-6">
-			<h4>Round 3: High-Fidelity Protoype</h4><br>
-			<p>Finally, I tested the high-fidelity prototype.</p>
+			<h4>Round 3: High-Fidelity Prototype</h4><br>
+			<p>Finally, I tested the high-fidelity prototype (3 participants) to validate the final UI, content clarity, and users’ confidence in decision-making.<br><br>
+			
+			<b>Key findings:</b>
 			<ul type="2">
-				<li><b>Participants: </b>3</li>
-				<li><b>Main learnings: </b>users struggled to understand financial jargon</li>
+				<li>Financial jargon caused confusion and hesitation</li>
+				<li>Users lacked confidence when unfamiliar terms were not explained</li>
+			</ul>
+			
+			</p><p>
+			<b>Actions taken:</b>
+			<ul type="2">
+				<li>Replaced technical terms with plain friendly language</li>
+				<li>Used visuals to convey meaning</li>
+			</ul>
+				</p>
+			
+			
+			
+			
 			</div>
 
 			<div class="col-md-6"><br>
 			<div class="image-container-cap">
 			<img src="images/work/finsight-testing3.png" alt="Student Services Prototype" class="img-fluid">
-			<div class="caption">High-Fidelity Protoype</div>
+			<div class="caption">High-Fidelity Prototype</div>
 			</div><br>
 		
 			</div>
@@ -298,47 +342,40 @@
 			<h4>Onboarding</h4>
 			<div class="image-container-cap">
 			<img src="images/work/finsight-onboarding.png" alt="Student Services Prototype" class="img-fluid">
-			<div class="caption">Direct and Indirect Competitors</div>
 			</div><br>
 			
 			<h4>Connecting a Bank Account</h4>
 			<div class="image-container-cap">
 			<img src="images/work/finsight-bank.png" alt="Student Services Prototype" class="img-fluid">
-			<div class="caption">Direct and Indirect Competitors</div>
 			</div><br>
 			
 			<h4>Exploring</h4>
 			<div class="image-container-cap">
 			<img src="images/work/finsight-explore.png" alt="Student Services Prototype" class="img-fluid">
-			<div class="caption">Direct and Indirect Competitors</div>
 			</div><br>
 			
 			<h4>Repayments Calculator</h4>
 			<div class="image-container-cap">
 			<img src="images/work/finsight-calc.png" alt="Student Services Prototype" class="img-fluid">
-			<div class="caption">Direct and Indirect Competitors</div>
 			</div><br>
 			
 			
 			<h5>Conclusion</h5>
 			
 			<h4>Limitations</h4>
-			<ul type="2">
-				<li>Learning curve: the app deals with complex financial concepts, requiring careful onboarding to avoid overwhelming new users.</li>
-				<li>Lack of direct competitors: while a gap in the market, it also meant fewer existing benchmarks for feature sets and user expectations.</li>
-				<li>Complexity of features: integrating bank account data, calculating complex mortgage scenarios, and presenting them simply was a significant design and technical challenge.</li>
-				</ul><br>
-					
-				
+			<p>Mortgages are complex subject, which required a learning curve for me during the project. One of the main challenges was explaining financial concepts in a way that felt clear and not overwhelming, so the overall flow needed careful consideration.<br><br>
+			
+			The lack of direct competitors showed there is a real gap in the market, but it also meant there were fewer examples to learn from. Without clear benchmarks, it was harder to know what features users might expect. This made user research and testing even more important to guide the design decisions.</p><br>
+			
 			<h4>Main Learnings</h4>
-			<ul type="2">
-				<li>Feature prioritisation early in the process: focusing on the most important features first.</li>
-				<li>Knowledge bias: I initially overestimated users’ financial literacy, leading to early designs that used too much jargon. Testing was crucial to identify and correct this.</li>
-				<li>Using visuals to convey meaning: a well-designed timeline or an visual icon can communicate complex financial impact more effectively than paragraphs of text or tables of numbers.</li>
-			</ul>
+			<p>Focusing on feature prioritisation early in the process helped keep the product clear and manageable. By concentrating on the most important features first, I was able to avoid unnecessary complexity and make sure the core experience solved the main user problem.<br></br>
+
+			I also learned the impact of knowledge bias. At the start, I assumed users were more familiar with financial terms than they actually were, which led to designs that felt confusing. User testing was essential in highlighting where language and explanations needed to be simpler.<br></br>
+</p>
+			
 			
 			<h4>Outcome</h4>
-			<p>FinSight demonstrates how a human-centred design approach can transform a source of stress into a tool for empowerment. The result is an app helps users like William move from feeling burdened by their mortgage to feeling in control of their financial journey.</p>
+			<p> FinSight demonstrates how human-centred design can reduce financial anxiety and increase user confidence. By making progress visible and decisions simple, the app helps homeowners like William move from feeling burdened by their mortgage to feeling in control of their financial journey.</p>
 
 
 
